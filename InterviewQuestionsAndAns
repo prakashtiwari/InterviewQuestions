@@ -1,0 +1,52 @@
+
+C# Questions
+How can I pass the method as a parameter to another method?
+
+What is the readonly keyword in C#?
+Ans: readonly field can only be assigend at declaration time or inside constructor.
+
+Q2: Suppose there is  a readonly list, are we alloed to add items to it?
+
+Q.3 Difference between const and readonly
+
+Q 4 Follow up on previous question, if I do a Task.WhenAll, is it a parallel programming?
+
+Q 5. If you want readonly list in C# which collection will you use?
+Ans: ReadOnlyCollection<string>
+
+
+SOLID
+What is Liskov substitution principle?
+What are the signs that LSP is getting violated?
+
+OOPS:
+What are the different way we can follow Polymorphism in C#?
+Compile time — Overloading
+Run time — Overriding
+Via interfaces
+Via Abstract classes
+
+
+AspNet core:
+What if you had multiple implementations of an interface, how do you register all of them with DI container?
+
+
+Q In the following code, where the orderId will get stored and where _order will get stored?
+
+public class A 
+{
+  public int _orderId = 0;
+  public Order _order = new Order();
+}
+
+What is difference between parallel programming and asynchronous programming?
+https://medium.com/@grishibharadwaj/tricky-c-interview-questions-for-senior-developers-6be1f544a846
+
+
+Q:
+What is the difference between throw and throw ex?
+Throw preserves the original stack trace while rethrowing the exception.
+
+Throw ex re-throws the caught exception but resets the stack trace to current location.
+
+
